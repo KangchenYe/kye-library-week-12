@@ -1,6 +1,6 @@
 <template>
     <div class="center-container">
-        <h1>Create an account</h1>
+        <h1>Create account</h1>
         <p><input type="text" placeholder="Email" v-model="email" /></p>
         <p><input type="password" placeholder="Password" v-model="password" /></p>
         <p><button @click="signin">Sign in via Firebase</button></p>
